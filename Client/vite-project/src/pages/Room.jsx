@@ -131,14 +131,14 @@ const Room = () => {
                 myStream &&
                 <div className=' w-1/2 flex flex-col items-center mx-4 my-4'>
                     <h1 className='text-3xl font-bold'>My Stream</h1>
-                    <ReactPlayer playing muted height="100px" width="200px" url={myStream} />
+                    <ReactPlayer playing muted height="450px" width="600px" url={myStream} />
                 </div>
             }
             {
                 remoteStream &&
                 <div className=' w-1/2 flex flex-col items-center mx-4 my-4'>
                     <h1 className='text-3xl font-bold'>Remote Stream</h1>
-                    <ReactPlayer playing muted height="100px" width="200px" url={remoteStream} />
+                    <ReactPlayer playing muted height="450px" width="600px" url={remoteStream} />
                 </div>
             }
         </div>
