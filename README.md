@@ -1,4 +1,4 @@
-# [Your Project Name]
+# Video Conferencing Web App
 
 A simple video conferencing platform built using **WebRTC** and **Socket.IO** to enable real-time communication directly through the browser.
 
